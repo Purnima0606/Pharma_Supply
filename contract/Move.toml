@@ -1,0 +1,10 @@
+[package]
+name = "pharma"
+version = "1.0.0"
+authors = []
+
+[addresses]
+pharma_supply_chain = "0x00805baee76e9a975f69bdef3906768ec7319d6ab5d31732e5ff9a597eda0da0"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-framework.git", rev = "mainnet", subdir = "aptos-framework" }
